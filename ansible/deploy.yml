@@ -1,0 +1,8 @@
+---
+- name: Deploy application
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Show deployment message
+      ansible.builtin.debug:
+        msg: "Application deployment completed successfully!"
